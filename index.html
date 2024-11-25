@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maxitoys</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        body {
+            font-family: 'Press Start 2P', cursive;
+        }
+        nav h1 {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        nav i {
+            cursor: pointer;
+        }
+        .producto button {
+            font-family: 'Press Start 2P', cursive;
+            padding: 10px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+        .paginacion a {
+            padding: 10px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <H1>Maxitoys®</H1>
+        <label>Ordenar Por</label>
+        <select>
+            <option value="valor 1">Precio</option>
+            <option value="valor 2">Más Vendidos</option>
+            <option value="valor 3">Recién Llegados</option>
+        </select>
+    </header>
+    <nav>
+        <h1><i class="fa-solid fa-dice"></i> Maxitoys </h1>
+        <i class="fa-solid fa-gamepad"></i>
+
+        <div>
+            <a href="#"><i class="fa-solid fa-shirt"></i> Hot Toys (25)</a>
+            <a href="#"><i class="fa-solid fa-boxers"></i> Inart (5)</a>
+            <a href="#"><i class="fa-solid fa-socks"></i> DC Comics (22)</a>
+            <a href="#"><i class="fa-solid fa-socks"></i> Marvel (15)</a>
+            <a href="#"><i class="fa-solid fa-socks"></i> Culto (2)</a>
+        </div>
+    </nav>
+    <main>
+        <div class="items">
+            <div class="producto">
+                <img src="assets/img/Sup.jpg" alt="INART Ultra Premium Figure Superman Henry Cavill">
+                <h2>INART Ultra Premium figure Superman Henry Cavill</h2>
+                <p>$1000 USD $</p>
+                <button><i class="fa-solid fa-cart-plus"></i> Add to shopping cart</button>
+            </div>
+            <div class="producto">
+                <img src="assets/img/Joker.jpg" alt="INART Ultra Premium Figure Joker Heath Ledger">
+                <h2>INART Ultra Premium Figure Joker Heath Ledger</h2>
+                <p>$1000 USD $</p>
+                <button><i class="fa-solid fa-cart-plus"></i> Add to shopping cart</button>
+            </div>
+            <div class="producto">
+                <img src="assets/img/BATS.jpg" alt="Hot Toys 1/6th scale Batman (Batman v Superman Dawn of Justice)">
+                <h2>Hot Toys 1/6th scale Batman (Batman v Superman Dawn of Justice)</h2>
+                <p>700 USD $</p>
+                <button><i class="fa-solid fa-cart-plus"></i> <><i class="fa-solid fa-cart-plus"></i> Add to shopping cart</</button>
+            </div>
+            <div class="producto">
+                <img src="assets/img/iron.jpg" alt="Hot Toys IronMan Mark 85 Battle Damage 1/6th scale"
+                <h2> Hot Toys IronMan Mark 85 Battle Damage 1/6th scale</h2>
+                <p>600 USD$</p>
+                <button><i class="fa-solid fa-cart-plus"></i> Add to shopping cart</button>
+            </div>
+            <div class="producto">
+                <img src="assets/img/tyler.jpg" alt="Blitzway Brad Pitt as Tyler Durden Fight Club 1/6th scale">
+                <h2>Blitzway Brad Pitt as Tyler Durden Fight Club 1/6th scale</h2>
+                <p>900 USD $</p>
+                <button><i class="fa-solid fa-cart-plus"></i> Add to add shopping cart</button>
+            </div>
+            <div class="producto">
+                <img src="assets/img/Vito.jpg" alt="Damtoys The Godfather Vito Corleone figure 1/6th scale">
+                <h2>Damtoys The Godfather Vito Corleone figure 1/6th scale</h2>
+                <p>750 USD $</p>
+                <button><i class="fa-solid fa-cart-plus"></i> Add to remove_shopping_cart</button>
+            </div>
+        </div>
+        <div class="paginacion">
+            <div>
+                <a>&laquo;</a>
+                <a>1</a>
+                <a>2</a>
+                <a>3</a>
+                <a>&raquo;</a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p><i class="fa-solid fa-star"></i> Maxitoys®</p>
+    </footer>
+</body>
+</html>
